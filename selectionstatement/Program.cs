@@ -26,9 +26,14 @@ namespace selectionstatement
 
             }
 
-            else if(guess == number)
+            else(guess == number)
             {
                 Console.WriteLine($"Winner Winner chicken dinner!");
+            }
+
+            if (guess < number)
+            {
+                Console.WriteLine($"Sorry, guess is to low");
             }
         }
     }
